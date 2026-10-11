@@ -32,3 +32,12 @@ Dézipper puis importer **le contenu du dossier**, directement à la racine du d
 ## Note sur les captures
 
 Captures fournies par l'éditeur : ne pas les interpréter comme des recommandations thérapeutiques. Elles montrent des dates de péremption historiques et une photo de boîte provenant d'un fournisseur tiers. Pour la fiche Play Store publique, il est préférable de préparer des captures avec produits de démonstration, sans mention personnelle et avec droit de réutilisation de toutes les photos.
+
+
+### Mise à jour V2.1
+- Galerie en défilement horizontal (captures intégrales, non rognées).
+- Nouvelle capture `assets/captures/stock.jpg`.
+- Contact : kptn.dev.contact@gmail.com ; éditeur affiché : Kptn Corp.
+- Conditions §3 : avertissement sur l'usage de médicaments périmés.
+
+**Attention :** « Kptn Corp » est un nom public fourni par l'auteur, non une identité juridique vérifiée. Avant la publication définitive, renseigner les mentions légales réelles éventuellement requises pour l'éditeur.

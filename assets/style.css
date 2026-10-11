@@ -20,3 +20,38 @@
 .future-shot p { margin:8px 0 0; }
 @media(max-width:700px){.hero-layout{grid-template-columns:1fr}.hero-visual{display:none}.screen-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.screen-caption{padding:13px 11px}.screen-caption h3{font-size:.9rem}.screen-caption p{font-size:.8rem}}
 @media(max-width:390px){.screen-grid{grid-template-columns:1fr 1fr}.brand .brand-icon{width:34px;height:34px}}
+
+/* V2.1 - galerie horizontale : conserver la proportion et l'intégralité des captures */
+.screen-grid {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  overflow-x: auto;
+  overflow-y: hidden;
+  gap: 18px;
+  padding: 4px 4px 20px;
+  margin-top: 26px;
+  scroll-snap-type: x proximity;
+  scroll-padding-inline: 4px;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+}
+.screen-card {
+  flex: 0 0 248px !important;
+  width: 248px;
+  min-width: 248px;
+  scroll-snap-align: start;
+}
+.screen-card img {
+  width: 100%;
+  height: 470px;
+  aspect-ratio: auto !important;
+  object-fit: contain !important;
+  object-position: center top !important;
+  background: #edf5f1;
+}
+.screen-caption { flex: 1; }
+@media (max-width: 640px) {
+  .screen-grid { gap: 14px; }
+  .screen-card { flex-basis: 220px !important; width: 220px; min-width: 220px; }
+  .screen-card img { height: 435px; }
+}
