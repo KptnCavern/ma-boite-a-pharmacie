@@ -41,3 +41,13 @@ Captures fournies par l'éditeur : ne pas les interpréter comme des recommandat
 - Conditions §3 : avertissement sur l'usage de médicaments périmés.
 
 **Attention :** « Kptn Corp » est un nom public fourni par l'auteur, non une identité juridique vérifiée. Avant la publication définitive, renseigner les mentions légales réelles éventuellement requises pour l'éditeur.
+
+
+## V2.2 (AdMob / UMP)
+
+- `confidentialite.html` : section publicite / consentement UMP, SDK AdMob, types de donnees techniques, absence de ciblage par l'inventaire.
+- `conditions.html` : rappel publicite gratuite versus VIP.
+- Les autres pages et les captures sont conservees de la V2.1.
+- Deposer le contenu du ZIP a la racine du depot GitHub Pages.
+- Mettre a jour Google Play « Contient des annonces » et la declaration « Securite des donnees » AVANT de distribuer une version integrant AdMob.
+- Cette politique suppose que le code n'envoie aucune information de stock a AdMob et que les annonces sont affichees selon le resultat UMP : confirmer ces points pendant les tests.
