@@ -51,3 +51,11 @@ Captures fournies par l'éditeur : ne pas les interpréter comme des recommandat
 - Deposer le contenu du ZIP a la racine du depot GitHub Pages.
 - Mettre a jour Google Play « Contient des annonces » et la declaration « Securite des donnees » AVANT de distribuer une version integrant AdMob.
 - Cette politique suppose que le code n'envoie aucune information de stock a AdMob et que les annonces sont affichees selon le resultat UMP : confirmer ces points pendant les tests.
+
+
+## V2.3 (13 octobre 2026)
+- Adresse générale et données personnelles : contact@kptncorp.fr.
+- Assistance utilisateurs : support@kptncorp.fr.
+- Vérifier les deux redirections OVH avec un envoi d’essai et une réponse.
+- Les adresses sont des redirections ; un envoi depuis ces adresses nécessite une configuration SMTP/alias distincte.
+- Publier les fichiers HTML et assets du ZIP à la racine du dépôt GitHub Pages.
